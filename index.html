@@ -148,6 +148,21 @@
         #contact a:hover {
             color: #00ff88;
         }
+		.icon-animate {
+		    font-size: 2em;
+		    color: #00ff88;
+		    animation: bounce 1.5s infinite ease-in-out;
+		    margin-bottom: 15px;
+		}
+
+		@keyframes bounce {
+		    0%, 100% {
+		    	transform: translateY(0);
+		    }
+		    50% {
+		        transform: translateY(-10px);
+		    }
+		}
         
         #about {
             background: linear-gradient(135deg, rgba(0, 255, 136, 0.05) 0%, rgba(0, 212, 255, 0.05) 100%);
